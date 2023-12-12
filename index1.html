@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Photography</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <header class="header-container">
+
+  <div class="logo">
+    <a href="index1.html"><img src="Images/logo.jpg" alt="nature photography logo" width="200px" height="75px" /></a>
+  </div>
+
+  <div class="hamburger-menu">
+    <img src="Images/hamburger-menu.svg" alt="hamburger-menu-icon" id="open-menu" />
+  </div> 
+
+    <ul class="main-nav" id="desktop-menu">
+        <li><a href="index2.html">About</a></li>
+        <li><a href="#gallery-anchor">Gallery</a></li>
+        <li><a href="index3.html">Contact</a></li>
+    </ul>
+
+  </header>
+
+ <aside class="side-menu" id="mobile-menu">
+   <header class="side-menu-header">
+      <img src="Images/logo.jpg" alt="nature photography logo" width="200px" height="75px"  class="mobile-logo" />
+      <img src="Images/close-menu-ham.svg" alt="close-menu-button" id="close-menu" />
+   </header>
+  <ul class="side-menu-content">
+      <li>About</li>
+      <li>Gallery</li>
+      <li>Contact</li>
+  </ul>
+</aside>  
+
+ <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="Images/kings-canyon-philippe-wuyts-unsplash.jpg" alt="kings canyon northern territory" />
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="Images/beach-frank-mckenna-unsplash.jpg" alt="birds flying over beach" />
+     </div>
+    
+    <div class="mySlides fade">
+      <img src="Images/denali-hari-nandakumar-unsplash.jpg" alt="mountains trees lake " />
+    </div>
+      
+    <div class="mySlides fade">
+      <img src="Images/birds-david-clode-unsplash.jpg" alt="birds on a log" />
+    </div>
+  </div>
+          
+    <div class="slide-dots">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>  
+    </div> 
+  
+
+  <main>  
+  <section class="gallery" id="gallery-anchor">
+        <h1>Gallery</h1>
+        <p>Welcome to a gallery where nature's poetry is captured frame by frame.</p> 
+        <p>Each photograph on display is a testament to the breathtaking allure of our planet. From the majestic vistas of snow-capped peaks to the intimate portraits of wildlife in their natural habitats, 
+          these images invite you to bring the essence of nature into your world. </p> 
+        <p>Explore this collection and find the perfect piece to weave the beauty of the outdoors into the fabric of your everyday life.</p>
+  </section>
+
+  <section class="gallery-grid" id="grid">
+      <div class="grid-item">
+        <img src="Images/billabong-rene-riegal-unsplash.jpg" alt="Weeli Wolli Creek Billabong" id="image1" onclick="onClick(this)" />
+        <h2>Billabong</h2>
+      </div> 
+       
+      <div class="grid-item">
+        <img src="Images/waves-david-clode-unsplash.jpg" alt="Waves crashing on rocks at Binalong Bay" id="image2" onclick="onClick(this)" />
+        <h2>Binalong Bay</h2>
+      </div>  
+
+      <div class="grid-item">
+        <img src="Images/waterfall-steve-bittinger-unsplash.jpg" alt="stream with a waterfall" id="image3" onclick="onClick(this)" />
+        <h2>Waterfall</h2>
+      </div>  
+
+      <div class="grid-item">
+        <img src="Images/12-apostles-daniel-sessler-unsplash.jpg" alt="Red Sky at the 12 Apostles" id="image4" onclick="onClick(this)" />
+         <h2>12 Apostles</h2>
+      </div>  
+
+      <div class="grid-item">
+        <img src="Images/pelicans-david-clode-unsplash.jpg" alt="Pelicans at mud flats in Cairns Australia" id="image5" onclick="onClick(this)" />
+         <h2>Pelicans</h2>
+      </div>  
+
+      <div class="grid-item">
+        <img src="Images/koala-photoholgic-unsplash.jpg" alt="Koala relaxing in a tree" id="image6" onclick="onClick(this)" />
+         <h2>Relaxing Koala</h2>
+      </div>  
+
+      <div class="grid-item">
+        <img src="Images/wallaby-david-clode-unsplash.jpg" alt="Young wallaby in tall grass" id="image7" onclick="onClick(this)" />
+        <h2>Young Wallaby</h2>
+      </div>  
+
+      <div class="grid-item">
+        <img src="Images/wombat-michael-jerrard-unsplash.jpg" alt="Wombat at Cradle Mountain Australia" id="image8" onclick="onClick(this)" />
+        <h2>Wombat</h2>
+      </div>
+      
+      <div class="grid-item">
+        <img src="Images/northern-lights-vincent-guth-unsplash.jpg" alt="Northern lights over dark trees" id="image9" onclick="onClick(this)" />
+         <h2>Northern Lights</h2>
+      </div>  
+
+      <div class="grid-item">
+        <img src="Images/snow-colby-thomas-unsplash.jpg" alt="Snow covered trees near water" id="image10" onclick="onClick(this)" />
+         <h2>Winter Wonderland</h2>
+      </div>  
+
+      <div class="grid-item">
+        <img src="Images/stars-benjamin-voros-unsplash.jpg" alt="starry sky above snowy mountains" id="image11" onclick="onClick(this)" />
+         <h2>Starry Sky</h2>
+      </div>  
+
+      <div class="grid-item">
+        <img src="Images/cascades-sergei-a-unsplash.jpg" alt="Smoky morning in Cascades - Rampart Lakes" id="image12" onclick="onClick(this)" />
+         <h2>Rampart Lakes</h2>
+      </div> 
+
+   </section>
+
+  <form class="subscribe-container">
+    <div class="subscribe">
+      <h1 class="subscribe-header">Subscribe</h1> 
+      <p class="subscribe-content">Join our exclusive community of nature enthusiasts and receive a free downloadable guide to capturing stunning outdoor moments. 
+        Be the first to glimpse our latest collections, receive photography tips, and unlock special offers on prints. </p>
+    </div>
+    <div class="subscribe-fields">
+      <input type="text" placeholder="Name" name="name" required> 
+      <input type="text" placeholder="Email" name="email" required > 
+      <input type="submit" value="Submit">  
+    </div>
+  </form>
+</main>
+
+  <footer class="footer-menu">
+    <div>
+       <ul class="footer-nav">
+        <li><a href=""><img src="Images/iconmonstr-facebook-4.svg"></a></li>
+        <li><a href=""><img src="Images/iconmonstr-instagram-14.svg"></a></li>
+        <li><a href=""><img src="Images/iconmonstr-pinterest-1.svg"></a></li>
+        <li><a href=""><img src="Images/iconmonstr-youtube-9.svg"></a></li>
+       </ul>
+       <p class="copyright">Copyright &copy; Nature Photography</p>
+    </div>
+  </footer>
+
+  <div id="modal01" class="modal">
+    <img id="img01" class="mod-img animate-zoom">
+    <div id="btn1" class="modal-btn ">Close</div>
+  </div>
+
+<script src="index.js"></script>
+  
+</body>
+</html>
