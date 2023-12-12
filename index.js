@@ -1,4 +1,4 @@
-//side menu
+//side menu 
 const sideMenu = document.getElementById("mobile-menu");
 
 document.getElementById("open-menu").addEventListener("click", function () {
