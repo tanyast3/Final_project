@@ -96,7 +96,7 @@ ul {
 
   a:hover {
     color: rgb(59, 92, 201);
-    text-decoration: underline;
+    transition: 0.4s ease-in-out;
   }
 
  /* side menu */
